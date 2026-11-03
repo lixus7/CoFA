@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+results/
+prepared/
+data/*
+!data/README.md
+third_party/*
+!third_party/README.md

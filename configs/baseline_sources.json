@@ -1,0 +1,30 @@
+{
+  "dsformer": {
+    "repo": "sky836/DSFormer",
+    "commit": "2f6ea064e50d579e7344b6b0c1329c9902fd2536"
+  },
+  "dstmamba": {
+    "repo": "Anle-He/DST-Mamba",
+    "commit": "c0fbb62426f3da73f05f073d8b219ab4ad82345e"
+  },
+  "himnet": {
+    "repo": "XDZhelheim/HimNet",
+    "commit": "2a9aa44d1864f6fb60bdf9d14bafd6c1681e81a5"
+  },
+  "hyperd": {
+    "repo": "ll121202/HyperD",
+    "commit": "5bd93a825955cbe31b2d8dac0041ecb0e1d223d2"
+  },
+  "ragc": {
+    "repo": "wkq-wukaiqi/RAGC",
+    "commit": "ee9cbb112b31ca704971a6b1d1c8ffdce6412b95"
+  },
+  "staeformer": {
+    "repo": "XDZhelheim/STAEformer",
+    "commit": "fc49d39b2f1a8e3cf37b6289d7240680e1690f3f"
+  },
+  "stman": {
+    "repo": "HowardZorn/ST-MAN",
+    "commit": "97eeb007c271312ee9ecc622b7d745034a044e0a"
+  }
+}

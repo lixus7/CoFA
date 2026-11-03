@@ -1,0 +1,46 @@
+{
+  "pems03": {
+    "nodes": 358,
+    "length": 26208,
+    "train_end": 15724,
+    "val_end": 20966,
+    "start_date": "2018-09-01",
+    "congestion": {
+      "speed_le": 62.5,
+      "occupancy_ge": 0.0717
+    }
+  },
+  "pems04": {
+    "nodes": 307,
+    "length": 16992,
+    "train_end": 10195,
+    "val_end": 13593,
+    "start_date": "2018-01-01",
+    "congestion": {
+      "speed_le": 63.900001525878906,
+      "occupancy_ge": 0.05979999899864197
+    }
+  },
+  "pems07": {
+    "nodes": 883,
+    "length": 28224,
+    "train_end": 16934,
+    "val_end": 22579,
+    "start_date": "2017-05-01",
+    "congestion": {
+      "speed_le": 63.2,
+      "occupancy_ge": 0.0799
+    }
+  },
+  "pems08": {
+    "nodes": 170,
+    "length": 17856,
+    "train_end": 10713,
+    "val_end": 14284,
+    "start_date": "2016-07-01",
+    "congestion": {
+      "speed_le": 63.6,
+      "occupancy_ge": 0.0744
+    }
+  }
+}
