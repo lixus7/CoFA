@@ -1,0 +1,73 @@
+dataset,quantity,seed,targets,mae,rmse
+pems03,flow,2024,all valid,14.33738274,22.81971694
+pems03,flow,2024,"valid, excluding zero",14.37444341,22.80438844
+pems03,flow,2025,all valid,14.39668816,22.90786309
+pems03,flow,2025,"valid, excluding zero",14.43549042,22.89314463
+pems03,flow,2026,all valid,14.42203423,22.95872999
+pems03,flow,2026,"valid, excluding zero",14.45894802,22.94188951
+pems03,occupancy,2024,all valid,0.00878991,0.02343041
+pems03,occupancy,2024,"valid, excluding zero",0.00882921,0.02350024
+pems03,occupancy,2025,all valid,0.00876947,0.02339220
+pems03,occupancy,2025,"valid, excluding zero",0.00880920,0.02346195
+pems03,occupancy,2026,all valid,0.00877713,0.02338397
+pems03,occupancy,2026,"valid, excluding zero",0.00881738,0.02345375
+pems03,speed,2024,all valid,1.78159839,3.64933025
+pems03,speed,2024,"valid, excluding zero",1.78159839,3.64933025
+pems03,speed,2025,all valid,1.77665909,3.64204349
+pems03,speed,2025,"valid, excluding zero",1.77665909,3.64204349
+pems03,speed,2026,all valid,1.77817768,3.64184802
+pems03,speed,2026,"valid, excluding zero",1.77817768,3.64184802
+pems04,flow,2024,all valid,18.70270783,30.51466903
+pems04,flow,2024,"valid, excluding zero",18.68938686,30.15603403
+pems04,flow,2025,all valid,18.67242514,30.50198206
+pems04,flow,2025,"valid, excluding zero",18.66218810,30.15724709
+pems04,flow,2026,all valid,18.69138339,30.49348746
+pems04,flow,2026,"valid, excluding zero",18.67814903,30.14713526
+pems04,occupancy,2024,all valid,0.00727269,0.01938755
+pems04,occupancy,2024,"valid, excluding zero",0.00730098,0.01946705
+pems04,occupancy,2025,all valid,0.00726321,0.01937910
+pems04,occupancy,2025,"valid, excluding zero",0.00729219,0.01945889
+pems04,occupancy,2026,all valid,0.00726222,0.01940044
+pems04,occupancy,2026,"valid, excluding zero",0.00729418,0.01948103
+pems04,speed,2024,all valid,1.51553642,3.49882582
+pems04,speed,2024,"valid, excluding zero",1.51553642,3.49882582
+pems04,speed,2025,all valid,1.51590456,3.50402208
+pems04,speed,2025,"valid, excluding zero",1.51590456,3.50402208
+pems04,speed,2026,all valid,1.51396814,3.49772597
+pems04,speed,2026,"valid, excluding zero",1.51396814,3.49772597
+pems07,flow,2024,all valid,20.03385371,33.05667658
+pems07,flow,2024,"valid, excluding zero",20.10542809,33.08075216
+pems07,flow,2025,all valid,19.98605040,33.03285954
+pems07,flow,2025,"valid, excluding zero",20.06032361,33.05774450
+pems07,flow,2026,all valid,19.99508479,33.03851555
+pems07,flow,2026,"valid, excluding zero",20.06247288,33.06092521
+pems07,occupancy,2024,all valid,0.01098899,0.02779844
+pems07,occupancy,2024,"valid, excluding zero",0.01100570,0.02782024
+pems07,occupancy,2025,all valid,0.01098044,0.02782029
+pems07,occupancy,2025,"valid, excluding zero",0.01099713,0.02784205
+pems07,occupancy,2026,all valid,0.01099019,0.02782284
+pems07,occupancy,2026,"valid, excluding zero",0.01100691,0.02784471
+pems07,speed,2024,all valid,2.07204447,4.43262908
+pems07,speed,2024,"valid, excluding zero",2.07204447,4.43262908
+pems07,speed,2025,all valid,2.07259355,4.43721727
+pems07,speed,2025,"valid, excluding zero",2.07259355,4.43721727
+pems07,speed,2026,all valid,2.07232010,4.44430203
+pems07,speed,2026,"valid, excluding zero",2.07232010,4.44430203
+pems08,flow,2024,all valid,14.33506504,23.53306424
+pems08,flow,2024,"valid, excluding zero",14.35595423,23.43077027
+pems08,flow,2025,all valid,14.32054856,23.48838956
+pems08,flow,2025,"valid, excluding zero",14.34081091,23.38684751
+pems08,flow,2026,all valid,14.33175957,23.49546143
+pems08,flow,2026,"valid, excluding zero",14.35307522,23.39403516
+pems08,occupancy,2024,all valid,0.00627190,0.01742480
+pems08,occupancy,2024,"valid, excluding zero",0.00628437,0.01744054
+pems08,occupancy,2025,all valid,0.00627505,0.01741454
+pems08,occupancy,2025,"valid, excluding zero",0.00628734,0.01743017
+pems08,occupancy,2026,all valid,0.00628212,0.01745918
+pems08,occupancy,2026,"valid, excluding zero",0.00629443,0.01747494
+pems08,speed,2024,all valid,1.22578958,3.06755968
+pems08,speed,2024,"valid, excluding zero",1.22578958,3.06755968
+pems08,speed,2025,all valid,1.22218100,3.05051256
+pems08,speed,2025,"valid, excluding zero",1.22218100,3.05051256
+pems08,speed,2026,all valid,1.22537084,3.06602365
+pems08,speed,2026,"valid, excluding zero",1.22537084,3.06602365

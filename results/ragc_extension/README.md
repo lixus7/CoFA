@@ -11,6 +11,8 @@ Complete results of the exploratory extension in Section V-E of the paper, in wh
 | `summary_test.csv` | Test metrics for every module, deployment, dataset and quantity (72 rows). |
 | `comparisons_test.csv` | Paired test MAE comparisons for the K12 and FINAL rows (240 rows). |
 | `per_seed.csv` | MAE, RMSE and selected epoch per seed, for validation and test, with and without zero targets (576 rows). |
+| `fold_mean_comparisons_test.csv` | Paired test MAE comparisons with RAGC's 12-fold mean without the module (48 rows). |
+| `fold_mean_per_seed_test.csv` | Test MAE and RMSE of that mean per seed, with and without zero targets (72 rows). |
 
 ## Definitions
 
@@ -28,5 +30,5 @@ Complete results of the exploratory extension in Section V-E of the paper, in wh
 ## Limits
 
 - `TRANSFER` values come from run records, with no day-block analysis, so `comparisons_test.csv` does not include them.
-- RAGC's 12-fold mean without the module is not included yet, so the K12 rows cannot be split into fold averaging and module here. No baseline in the main table is given a fold average.
+- RAGC's 12-fold mean is an unranked reference. No ranked baseline in the main table is given a fold average. The comparisons with it have different denominators and are not additive, and the fold forecasters and the single fit are trained on different data, so the first comparison is cross-fitted averaging against a single fit, not the averaging operation alone.
 - The inference latency of these deployments was not measured.
