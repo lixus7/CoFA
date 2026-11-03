@@ -23,6 +23,7 @@ Two deployments are reported:
 | `cofa/evaluation.py` | Metrics with validity masks, traffic states and forecast leads |
 | `cofa/models.py`, `cofa/external_models.py` | DecoupleST MISO, RAGC and baseline wrappers |
 | `configs/` | Dataset settings and baseline source commits |
+| `results/ragc_extension/` | Complete results of the exploratory extension on RAGC (Section V-E of the paper) |
 | `tests/smoke_cpu.py` | End-to-end check on synthetic data |
 
 ## Setup
@@ -66,4 +67,4 @@ python tests/smoke_cpu.py
 
 This is the code of the PeMS03 and PeMS07 runs, with cluster scheduling and internal bookkeeping removed. PeMS04 and PeMS08 were run with an earlier revision, before fold-local input filling was added for the missing records in PeMS03 and PeMS07. Device selection was generalized so that the code also runs on CPU; the reported results were produced on GPUs.
 
-The aligned PeMS03 and PeMS07 arrays, the settings of the further baselines and the per-seed result tables will be added here.
+This repository holds the code and the complete results of the extension on RAGC. It does not include the aligned PeMS03 and PeMS07 arrays or the other result tables.

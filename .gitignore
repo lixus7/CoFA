@@ -1,6 +1,7 @@
 __pycache__/
 *.pyc
-results/
+results/*
+!results/ragc_extension/
 prepared/
 data/*
 !data/README.md
