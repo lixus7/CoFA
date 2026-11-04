@@ -29,7 +29,7 @@ These are the arrays the reported PeMS03 and PeMS07 runs used.
 **How they were made.**
 
 - **Flow** is copied unchanged from the PeMS03 and PeMS07 benchmark files distributed with [STSGCN](https://github.com/Davidham3/STSGCN).
-- **Occupancy and speed** come from the five-minute station records of the [Caltrans PeMS](https://pems.dot.ca.gov) data clearinghouse for the same periods. PeMS03 sensors follow the published station list (`PEMS03.txt`, next to the edge list below). PeMS07's benchmark nodes are anonymous, so each was matched by comparing its flow over all 98 days with the PeMS records; where candidates differed in occupancy or speed (40 nodes), the match also used the benchmark graph and PeMS station coordinates.
+- **Occupancy and speed** come from the five-minute station records of the [Caltrans PeMS](https://pems.dot.ca.gov) data clearinghouse for the same periods. PeMS03 sensors follow the published station list (`PEMS03.txt`, next to the edge list below). PeMS07's benchmark nodes are anonymous, so they were matched by comparing their flow with the PeMS records over all 98 days. Five nodes with incomplete records were matched on shorter periods or by their place in the graph, and where candidates differed in occupancy or speed (40 nodes), the match also used the benchmark graph and PeMS station coordinates.
 - **Validity:** flow is valid everywhere. An occupancy or speed entry is valid if the record has a value there; otherwise it is invalid and holds 0 in `labels.npy`.
 - **Graph:** PeMS03 uses the edge list distributed with [ASTGNN](https://github.com/guoshnBJTU/ASTGNN/tree/main/data/PEMS03), and PeMS07 uses the benchmark's edge list, keeping its node order.
 
