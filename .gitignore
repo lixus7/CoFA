@@ -2,8 +2,12 @@ __pycache__/
 *.pyc
 results/*
 !results/ragc_extension/
+!results/main/
 prepared/
 data/*
 !data/README.md
+!data/MANIFEST.json
+!data/make_pems0408.py
+!data/provenance/
 third_party/*
 !third_party/README.md

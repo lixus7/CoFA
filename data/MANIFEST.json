@@ -1,0 +1,168 @@
+{
+ "note": "Arrays for data/<dataset>/. PeMS03 and PeMS07 are in the data-v1 release; PeMS04 and PeMS08 come from the upstream release named below.",
+ "datasets": {
+  "pems03": {
+   "arrays": {
+    "labels.npy": {
+     "shape": [
+      26208,
+      358,
+      3
+     ],
+     "dtype": "float64",
+     "bytes": 225179264,
+     "sha256": "b5d3f6b9b6b1eb5461213f82aa53c136f148fbb63dcd6e702c7e32d80fd20e60"
+    },
+    "valid.npy": {
+     "shape": [
+      26208,
+      358,
+      3
+     ],
+     "dtype": "bool",
+     "bytes": 28147520,
+     "sha256": "09e615f2840b9b8cf3f9f163c50a67c81c8efc45fcb557808397b228bbfd10ad"
+    },
+    "causal.npy": {
+     "shape": [
+      26208,
+      358,
+      3
+     ],
+     "dtype": "float32",
+     "bytes": 112589696,
+     "sha256": "5aea565b9e145d2d1d6025f07232d1273dd8781c0c77373a763c73a7e3085e67"
+    },
+    "adj.npy": {
+     "shape": [
+      358,
+      358
+     ],
+     "dtype": "float32",
+     "bytes": 512784,
+     "sha256": "45eadca5d4451bb83a4b249f1726d71f93082dff759e5ed762717a113a07bb49"
+    }
+   },
+   "steps": 26208,
+   "sensors": 358,
+   "first_timestamp": "2018-09-01T00:00:00",
+   "last_timestamp": "2018-11-30T23:55:00",
+   "invalid_fraction": {
+    "flow": 0.0,
+    "occupancy": 0.004784350891194467,
+    "speed": 0.026224880798903144
+   },
+   "sensors_without_valid_speed": [
+    120,
+    131,
+    132,
+    181,
+    194,
+    259,
+    263,
+    279
+   ],
+   "pems_source_files": 91,
+   "flow_benchmark_file_sha256": "34859517425eded66a0014db63de54b95d0428c38890741a1710ed4d3b043de8",
+   "flow_values_equal_benchmark": true,
+   "pems_flow_cells_compared": 9337575,
+   "pems_flow_cells_matching_benchmark": 9333445,
+   "flow_match_rate": 0.999557701009095,
+   "graph_source_file_sha256": "b978bc1fee8172ac0bb02e6478f0376b68d172ee88c0c3121c60241e42c89fc6",
+   "archive": {
+    "name": "pems03.tar.gz",
+    "bytes": 111099959,
+    "sha256": "e83ae205afc59b6ce38042ca4118623a948bb137bbd3cc645b0d208639aaf3da"
+   }
+  },
+  "pems07": {
+   "arrays": {
+    "labels.npy": {
+     "shape": [
+      28224,
+      883,
+      3
+     ],
+     "dtype": "float64",
+     "bytes": 598123136,
+     "sha256": "d6e6a68ef519db4c51ed46ec327658fe701cf4452e50862c20f5001fbaa6793a"
+    },
+    "valid.npy": {
+     "shape": [
+      28224,
+      883,
+      3
+     ],
+     "dtype": "bool",
+     "bytes": 74765504,
+     "sha256": "c188dc4ff593aa48201a296a7e50f4e8debbd8aabe85ef676e2ef12e99b17a30"
+    },
+    "causal.npy": {
+     "shape": [
+      28224,
+      883,
+      3
+     ],
+     "dtype": "float32",
+     "bytes": 299061632,
+     "sha256": "12eac1090341f2f2ec9bbf776d550696d2a5f6d7f7130f02d53f2f4c709b25e6"
+    },
+    "adj.npy": {
+     "shape": [
+      883,
+      883
+     ],
+     "dtype": "float32",
+     "bytes": 3118884,
+     "sha256": "9c422e87dd0513da23a3caede340c364e402d99bb9f8ddef0a5197e0ece581d7"
+    }
+   },
+   "steps": 28224,
+   "sensors": 883,
+   "first_timestamp": "2017-05-01T00:00:00",
+   "last_timestamp": "2017-08-06T23:55:00",
+   "invalid_fraction": {
+    "flow": 0.0,
+    "occupancy": 0.0020460807954740977,
+    "speed": 0.012491597714963675
+   },
+   "sensors_without_valid_speed": [
+    4,
+    110,
+    198,
+    264,
+    353,
+    420,
+    447,
+    498,
+    543,
+    570,
+    690
+   ],
+   "pems_source_files": 98,
+   "flow_benchmark_file_sha256": "a07887e610aa986276209bc9384d14ed7858fdcad1ded67f53dca19eb828600b",
+   "flow_values_equal_benchmark": true,
+   "pems_flow_cells_compared": 24870800,
+   "pems_flow_cells_matching_benchmark": 24870800,
+   "flow_match_rate": 1.0,
+   "graph_source_file_sha256": "f7d127ebf976f1e2d93dc7d7275cef6d8c4c1828c7c8bfbaf3ee1254491314f1",
+   "archive": {
+    "name": "pems07.tar.gz",
+    "bytes": 290762700,
+    "sha256": "a37098f6408963dba2e4e16af55da36240a43832d5f022cd0cf17c19ea9b0029"
+   }
+  },
+  "pems04": {
+   "upstream": "https://github.com/Davidham3/ASTGCN-2019-mxnet",
+   "upstream_commit": "d5d40645fa45471f2b473fc49a29ec3f0a993c6d",
+   "upstream_file": "data/PEMS04/pems04.npz",
+   "sha256": "95a3c9b720fffdb85f0330d09bfab41b0b3cad0ca86c0d7d5f3accacb4ac999a"
+  },
+  "pems08": {
+   "upstream": "https://github.com/Davidham3/ASTGCN-2019-mxnet",
+   "upstream_commit": "d5d40645fa45471f2b473fc49a29ec3f0a993c6d",
+   "upstream_file": "data/PEMS08/pems08.npz",
+   "sha256": "e1d03ce74e9fb79149e6e7c37c680214822c4a285baa2f42278cacabcd25c075"
+  }
+ }
+}

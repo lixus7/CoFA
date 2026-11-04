@@ -23,12 +23,16 @@ Two deployments are reported:
 | `cofa/evaluation.py` | Metrics with validity masks, traffic states and forecast leads |
 | `cofa/models.py`, `cofa/external_models.py` | DecoupleST MISO, RAGC and baseline wrappers |
 | `configs/` | Dataset settings and baseline source commits |
+| `data/` | Data layout, checksums and provenance; the arrays themselves are in the `data-v1` release |
+| `results/main/` | Results behind the main comparison, further baselines, early fusion and deployment tables |
 | `results/ragc_extension/` | Complete results of the exploratory extension on RAGC (Section V-E of the paper) |
 | `tests/smoke_cpu.py` | End-to-end check on synthetic data |
 
 ## Setup
 
-Python 3.11 with the packages in `requirements.txt`. See `data/README.md` for the data layout and `third_party/README.md` for the baselines.
+Python 3.11 with the packages in `requirements.txt`. See `third_party/README.md` for the baselines.
+
+The aligned PeMS03 and PeMS07 arrays are in the [`data-v1` release](https://github.com/lixus7/CoFA/releases/tag/data-v1). `data/README.md` describes how to download them, how to build PeMS04 and PeMS08, and how the arrays were made.
 
 ## Running
 
@@ -67,4 +71,6 @@ python tests/smoke_cpu.py
 
 This is the code of the PeMS03 and PeMS07 runs, with cluster scheduling and internal bookkeeping removed. PeMS04 and PeMS08 were run with an earlier revision, before fold-local input filling was added for the missing records in PeMS03 and PeMS07. Device selection was generalized so that the code also runs on CPU; the reported results were produced on GPUs.
 
-This repository holds the code and the complete results of the extension on RAGC. It does not include the aligned PeMS03 and PeMS07 arrays or the other result tables.
+## License
+
+The code and the result tables are under the [MIT License](LICENSE). The license does not cover the data, whose sources are listed in `data/README.md`, or the baseline code, which is not redistributed here.
