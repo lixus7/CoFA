@@ -9,7 +9,7 @@ Each dataset has its own folder, `data/<dataset>/`, with these arrays (T steps, 
 | `causal.npy` | T×N×3, float32 | Causal forward fill of the valid values, with zeros before the first valid value. |
 | `adj.npy` | N×N, float32 | Road-graph adjacency (1 where the source graph has an edge), used only by D²STGNN. |
 
-Dataset sizes, splits and congestion thresholds are in `../configs/datasets.json`. Checksums of every array and archive are in `MANIFEST.json`.
+Dataset sizes, splits and congestion thresholds are in `../configs/datasets.json`. `MANIFEST.json` records checksums for the released PeMS03 and PeMS07 arrays and archives, and for the upstream PeMS04 and PeMS08 `.npz` files.
 
 ## PeMS03 and PeMS07
 
@@ -39,7 +39,7 @@ These are the arrays the reported PeMS03 and PeMS07 runs used.
 | Period | 2018-09-01 to 2018-11-30 | 2017-05-01 to 2017-08-06 |
 | Invalid occupancy / speed | 0.48% / 2.62% | 0.20% / 1.25% |
 | Sensors with no valid speed | 8 | 11 |
-| PeMS flow equal to the benchmark flow, where PeMS has a value | 99.956% of cells | 100% of cells |
+| PeMS flow within 1e-6 of the benchmark flow, where PeMS has a value | 99.956% of cells | 100% of cells |
 
 **How to read them.**
 
@@ -66,4 +66,4 @@ All finite entries in these releases are treated as valid. This describes the ev
 
 ## License and attribution
 
-This repository's MIT License does not cover the data. Occupancy and speed come from Caltrans PeMS, and flow and the graphs from the releases linked above, so the terms of those sources apply, including the [PeMS conditions of use](https://pems.dot.ca.gov/?view=tou). Please credit them when you use the arrays.
+This repository's MIT License does not cover the data, and the repository grants no separate data license. Occupancy and speed come from Caltrans PeMS, and flow and the graphs from the releases linked above, so the terms of those sources apply. The linked benchmark repositories declare no license, and the [PeMS conditions of use](https://pems.dot.ca.gov/?view=tou) are a general site-use policy, so check these sources before redistributing the arrays. Please credit them when you use the arrays.
